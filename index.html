@@ -1,10 +1,47 @@
----
-title: Fixie
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Fixie</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a class="navbar-brand" href="#">
+      <img src="./assets/images/logo-fixie.svg" alt="fixieLogo">
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" class="ml-auto">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold" href="#">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold" href="#">Blog</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  
 <main>
   <section class="container-fluid position-relative">
     <div class="row justify-content-end">
@@ -134,3 +171,30 @@ current: index
     </div>
   </section>
 </main>
+
+  <footer class="footer container">
+      <nav class="bg-light d-flex justify-content-between align-items-center px-4 py-3">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold" href="#">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold" href="#">Blog</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold" href="#">Contact</a>
+          </li>
+        </ul>
+        <h6 class="mb-0 text-muted"><small>© 2020 Fixie. All Rights Reserved.</small> </h6>
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/logo-fixie.svg" alt="fixieLogo">
+        </a>
+      </nav>
+  </footer>
+
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
